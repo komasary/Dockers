@@ -1,0 +1,63 @@
+/*
+Format used for headers
+ */
+h1 {
+  color: black;
+  font-family: cursive;
+  font-size: 300%;
+
+  color: linen;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 100%;
+}
+/*
+Format used for buttons
+ */
+
+
+
+button {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+
+  left: 10%;
+}
+
+.border {
+  width: 500px;
+  height: 200px;
+  background: rgba(6, 4, 3, 0.5);
+  color: #fff;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("1.jpg");
+
+  /* Full height */
+  height: 600px;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  margin: auto;
+  margin-left: 20px;
+}

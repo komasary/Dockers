@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" type="text/css" href="./css/sum.css">
+    <style>
+
+
+
+
+        input[type='text'] { font-size: 15px; background-color: mistyrose; color:black;}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <h1 align="center">Simple JS Compiler</h1>
+
+
+
+        <div class="border">
+            <form id="input" align="center">
+                <h2 <align="center"> Write some JS code and run it.</h2>
+                <textarea rows="6" cols="40" name="textarea" id="textarea">
+                </textarea>
+                <input type="button" value="Do It" onclick="doIt();" />
+
+                <br><br>
+            </form>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <script>
+        function doIt() {
+            var headID = document.getElementsByTagName("head")[0];
+            var newScript = document.createElement("script");
+            newScript.type = "text/javascript";
+            newScript.innerHTML = document.getElementById("textarea").value;
+            headID.appendChild(newScript);
+        }
+    </script>
+
+
+    \
+    </div>
+
+</html>
