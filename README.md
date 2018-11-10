@@ -20,12 +20,12 @@ you can input (“TextBox”) a small program in any language of your choice, an
 ## Contributors
 ```
 Komas Aryal 
-Computer Engineering
+Computer and Electrical Engineering
 University at Buffalo
 
 
 Saugat Khadka
-Computer Engineering
+Computer and Electrical Engineering
 University at Buffalo
 
 
