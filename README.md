@@ -4,7 +4,8 @@ Implementing a centralized pub/sub distributed application
 ## Installation
 
 Use the PowerShell in Windows or the Bash for the installation
-```bash
+```
+Windows PowerShell
 node js
 npm install
 ```
