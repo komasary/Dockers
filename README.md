@@ -18,16 +18,7 @@ you can input (“TextBox”) a small program in any language of your choice, an
 (“button”) that will load the program in the Docker and execute it.
 ```
 
-## Contributors
-```
-Komas Aryal 
-Computer and Electrical Engineering
-University at Buffalo
 
-
-Saugat Khadka
-Computer and Electrical Engineering
-University at Buffalo
 
 
 ```
